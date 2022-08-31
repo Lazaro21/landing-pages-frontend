@@ -1,5 +1,13 @@
+import * as Styled from './styles';
+
 function Home() {
-  return <div className="Home">Teste</div>;
+  return (
+    <div className="App">
+      <Styled.Wrapper background="purple">
+        <h1>Teste</h1>
+      </Styled.Wrapper>
+    </div>
+  );
 }
 
 export default Home;
