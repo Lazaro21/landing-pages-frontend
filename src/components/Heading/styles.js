@@ -12,8 +12,15 @@ const titleSize = {
   `,
   huge: (theme) => css`
     font-size: ${theme.font.sizes.xhuge};
+    ${mediaFont(theme)}
   `,
 };
+
+const mediaFont = (theme) => css`
+  @media (${theme.media.ltMedium}) {
+    font-size: ${theme.font.sizes.xlarge};
+  }
+`;
 
 export const Title = styled.h1`
   ${({ theme, colorDark, size, uppercase }) => css`
