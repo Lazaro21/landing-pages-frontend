@@ -28,7 +28,7 @@ exports[`<GridTwoColumns /> should render grid with two columns 1`] = `
 }
 
 .c6 {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
 }
 
 .c2 {
@@ -77,20 +77,18 @@ exports[`<GridTwoColumns /> should render grid with two columns 1`] = `
         <div
           class="c3"
         >
-          <h1
+          <h2
             class="c4 c5"
           >
             Grid Two Columns
-          </h1>
+          </h2>
           <div
             class="c6"
           >
-            <h1>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
      Error rem cum dolores corporis reiciendis. Labore, nam magni! Eos 
      facilis esse suscipit rem perferendis ullam, praesentium maiores distinctio 
      ipsum minus reiciendis?
-            </h1>
           </div>
         </div>
         <div

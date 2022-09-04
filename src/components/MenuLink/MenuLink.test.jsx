@@ -62,9 +62,9 @@ describe('<MenuLink />', () => {
           href="http://localhost"
           target="_self"
         >
-          <h1>
+          <h3>
             children
-          </h1>
+          </h3>
         </a>
       </div>
     `);

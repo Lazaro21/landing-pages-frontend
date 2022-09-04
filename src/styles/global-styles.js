@@ -1,4 +1,4 @@
-import { createGlobalStyle, css } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
     
@@ -10,15 +10,30 @@ export const GlobalStyles = createGlobalStyle`
 
     html {
       font-size: 62.5%;
+      scroll-behavior: smooth;
     }
 
     body {
       font-family: ${({ theme }) => theme.font.family.default};
-      /* background-color: ${({ theme }) => theme.colors.white} */
+
     }
 
     h1, h2, h3, h4, h5, h6 {
       font-family: ${({ theme }) => theme.font.family.secondary};
-      /* background-color: ${({ theme }) => theme.colors.white}; */
+      margin: ${({ theme }) => theme.spacings.large} 0
+
+    }
+
+    p {
+      margin: ${({ theme }) => theme.spacings.medium} 0;
+    }
+
+    ul, ol {
+      margin: ${({ theme }) => theme.spacings.medium} 0;
+      padding: ${({ theme }) => theme.spacings.medium} 0;
+    }
+
+    a {
+      color: ${({ theme }) => theme.colors.secondaryColor}
     }
 `;
